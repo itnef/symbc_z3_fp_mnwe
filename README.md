@@ -1,0 +1,3 @@
+- launch/ contains the launch configuration
+- JPF project folders should be at ../jpf-core, ../jpf-symbc
+- hamcrest-core and junit-4.12 jars should be placed in lib/

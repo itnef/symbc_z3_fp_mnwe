@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="../jpf-core/build/jpf.jar"/>
+	<classpathentry kind="lib" path="../jpf-core/build/jpf-annotations.jar"/>
+	<classpathentry kind="lib" path="../jpf-core/build/jpf-classes.jar"/>
+	<classpathentry kind="lib" path="../jpf-core/build/RunJPF.jar"/>
+	<classpathentry kind="lib" path="../jpf-core/build/RunTest.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="../jpf-symbc/build/jpf-symbc.jar"/>
+	<classpathentry kind="lib" path="../jpf-symbc/build/jpf-symbc-annotations.jar"/>
+	<classpathentry kind="lib" path="../jpf-symbc/build/jpf-symbc-classes.jar"/>
+	<classpathentry kind="lib" path="../jpf-symbc/lib/com.microsoft.z3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="../jpf-symbc/lib/64bit"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
